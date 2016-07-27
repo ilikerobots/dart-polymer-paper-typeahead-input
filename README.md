@@ -4,8 +4,7 @@
 [![Travis](https://img.shields.io/travis/ilikerobots/dart-polymer-typeahead-input.svg?maxAge=2592000?style=flat-square)](https://travis-ci.org/ilikerobots/dart-polymer-paper-typeahead-input)
 
 
-Dart polymer wrappers for [paper-typeahead-input](https://github.com/cheonhyangzhang/paper-typeahead-input) Polymer elements.  Thanks to [Tianxiang Zhang][https://github.com/cheonhyangzhang]
-for the original polymer.
+Dart polymer wrappers for [paper-typeahead-input](https://github.com/cheonhyangzhang/paper-typeahead-input) Polymer elements.  Thanks to [Tianxiang Zhang](https://github.com/cheonhyangzhang) for the original polymer.
 
 ## Examples
 
