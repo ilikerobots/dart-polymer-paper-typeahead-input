@@ -1,0 +1,30 @@
+name: polymer_paper_typeahead_input
+version: 0.0.1
+description: A Dart port of the paper-typeahead-input polymer element.
+author: Mike Hoolehan <mike@hoolehan.com>
+homepage: https://github.com/ilikerobots/dart-polymer-typeahead-input
+
+environment:
+  sdk: '>=1.13.0 <2.0.0'
+dependencies:
+  polymer: ^1.0.0-rc.16 
+  polymer_elements: ^1.0.0-rc.8
+dev_dependencies:
+  custom_element_apigen: ^0.2.1+1
+  dart_to_js_script_rewriter: ^1.0.1
+  test: ^0.12.5+1
+transformers:
+- polymer:
+    entry_points:
+    - example/index.html
+    - test/typeahead_feature_test.html
+- test/pub_serve:
+    $include: test/**_test{.*,}.dart
+- dart_to_js_script_rewriter
+- $dart2js:
+    $include: '**/*.bootstrap.initialize.dart'
+    minify: true
+    commandLineOptions:
+    - --trust-type-annotations
+    - --trust-primitives
+

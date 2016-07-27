@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>test for dart polymer paper-typeahead-input</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <script src="packages/web_components/webcomponents-lite.js"></script>
+    <script src="packages/polymer_interop/src/js/polymer.js"></script>
+    <link rel="x-dart-test" href="typeahead_feature_test.dart">
+    <script src="packages/test/dart.js"></script>
+    <style>
+        body { margin: 0; }
+    </style>
+  </head>
+  <body>
+
+    <!-- You can use the document as a place to set up your fixtures. -->
+      <template id="typeahead-value">
+        <paper-typeahead-input local-candidates="{{states}}"></paper-typeahead-input>
+      </template>
+
+
+    <template id="typeahead-display-value">
+        <paper-typeahead-input local-candidates="{{states}}"></paper-typeahead-input>
+    </template>
+
+     <template id="typeahead-display-style">
+        <paper-typeahead-input local-candidates="{{states}}"></paper-typeahead-input>
+     </template>
+
+  </body>
+</html>

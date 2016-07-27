@@ -1,0 +1,31 @@
+package_mappings:
+  - iron-: polymer_elements
+  - paper-: polymer_elements
+files_to_generate:
+  - paper-typeahead-input/paper-typeahead-input.html
+deletion_patterns:
+ - polymer
+ - index\.html$
+ - README\.md$
+ - CONTRIBUTING\.md$
+ - demo\.html$
+ - demos$
+ - demo$
+ - ^polymer$
+ - ^webcomponentsjs$
+ - .gitignore$
+ - .travis.yml$
+ - metadata\.html$
+ - iron-
+ - font-
+ - paper-styles
+ - paper-input-char-counter
+ - paper-input-container
+ - paper-input-error
+stubs_to_generate:
+  polymer_elements:
+    - paper-input/paper-input.html
+    - paper-menu/paper-menu.html
+    - paper-item/paper-item.html
+    - iron-ajax/iron-ajax.html
+    - paper-material/paper-material.html

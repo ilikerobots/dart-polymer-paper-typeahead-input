@@ -1,0 +1,15 @@
+{
+  "name": "dart-polymer-paper-typeahead-input",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ilikerobots/dart-polymer-paper-typeahead-input",
+  "authors": [ "Mike Hoolehan <mike@hoolehan.com>" ],
+  "private": true,
+  "dependencies": {
+    "paper-typeahead-input": "cheonhyangzhang/paper-typeahead-input",
+    "iron-ajax": "PolymerElements/iron-ajax#^1.0.1",
+    "paper-material": "PolymerElements/paper-material#^1.0.1"
+
+  },
+  "devDependencies": {
+  }
+}
