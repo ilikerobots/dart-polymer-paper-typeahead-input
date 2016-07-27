@@ -1,7 +1,7 @@
-# dart-polymer-typeahead-input
+# dart-polymer-paper-typeahead-input
 
 [![Pub](https://img.shields.io/pub/v/dart-polymer-paper-typeahead-input.svg?maxAge=2592000?style=flat-square)](https://pub.dartlang.org/packages/dart-polymer-paper-typeahead-input)
-[![Travis](https://img.shields.io/travis/ilikerobots/dart-polymer-typeahead-input.svg?maxAge=2592000?style=flat-square)](https://travis-ci.org/ilikerobots/dart-polymer-paper-typeahead-input)
+[![Travis](https://img.shields.io/travis/ilikerobots/dart-paper-polymer-typeahead-input.svg?maxAge=2592000?style=flat-square)](https://travis-ci.org/ilikerobots/dart-polymer-paper-typeahead-input)
 
 
 Dart polymer wrappers for [paper-typeahead-input](https://github.com/cheonhyangzhang/paper-typeahead-input) Polymer elements.  Thanks to [Tianxiang Zhang](https://github.com/cheonhyangzhang) for the original polymer.
