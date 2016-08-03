@@ -1,5 +1,5 @@
 name: polymer_paper_typeahead_input
-version: 0.0.2
+version: 0.0.3
 description: A Dart port of the paper-typeahead-input polymer element.
 author: Mike Hoolehan <mike@hoolehan.com>
 homepage: https://github.com/ilikerobots/dart-polymer-paper-typeahead-input
