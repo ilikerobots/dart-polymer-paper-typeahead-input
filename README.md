@@ -47,7 +47,7 @@ bower install
 2. Build the Dart wrapper API
 
 ```sh
-pub run custom_element_apigen:update_paper_typeahead_input_dart.yaml
+pub run custom_element_apigen:update paper_typeahead_input_dart.yaml
 ```
 
 For more information on using custom_element_apigen, see <https://pub.dartlang.org/packages/custom_element_apigen>
