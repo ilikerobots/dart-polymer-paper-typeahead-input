@@ -41,9 +41,11 @@ main() async {
       myEl.inputValue = 'ala';
       myEl.jsElement.callMethod('_search', [myEl.inputValue.trim()]);
       expect(myEl.jsElement['_typeahead'], equals("Alabama"));
+      expect(myEl.suggestions, equals(["Alabama","Alaska","Palau"]));
       myEl.inputValue = 'al';
       myEl.jsElement.callMethod('_search', [myEl.inputValue.trim()]);
       expect(myEl.jsElement['_typeahead'], equals("Alabama"));
+      expect(myEl.suggestions.length, 5);
       myEl.inputValue = '';
       myEl.jsElement.callMethod('_search', [myEl.inputValue.trim()]);
       expect(myEl.jsElement['_typeahead'], equals(""));

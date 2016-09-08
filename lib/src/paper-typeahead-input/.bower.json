@@ -1,6 +1,6 @@
 {
   "name": "paper-typeahead-input",
-  "version": "1.3.11",
+  "version": "1.3.13",
   "authors": [
     "Tianxiang Zhang <cenhiangapply@gmail.com>"
   ],
@@ -20,22 +20,23 @@
     "/demo/"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.0.0",
+    "iron-test-helpers": "~1.2.5",
     "paper-input": "PolymerElements/paper-input#^1.0.5",
+    "paper-item": "PolymerElements/paper-item#^1.0.1",
     "paper-menu": "PolymerElements/paper-menu#^1.0.0",
-    "paper-item": "PolymerElements/paper-item#^1.0.1"
+    "polymer": "Polymer/polymer#^1.0.0"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
     "web-component-tester": "*"
   },
-  "_release": "1.3.11",
+  "_release": "1.3.13",
   "_resolution": {
     "type": "version",
-    "tag": "v1.3.11",
-    "commit": "9f13c2195a9ed39c5f4748324ead7ffb45e692af"
+    "tag": "v1.3.13",
+    "commit": "9318e457bb8de811f025b589a32a0242227ddf58"
   },
   "_source": "git://github.com/cheonhyangzhang/paper-typeahead-input.git",
-  "_target": "*",
+  "_target": "1.3.13",
   "_originalSource": "cheonhyangzhang/paper-typeahead-input"
 }

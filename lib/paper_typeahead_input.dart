@@ -145,4 +145,8 @@ class PaperTypeaheadInput extends HtmlElement with CustomElementProxyMixin, Poly
   /// This property only makes sense when property isCandidatesJson set to be true.
   List get searchableProps => jsElement[r'searchableProps'];
   set searchableProps(List value) { jsElement[r'searchableProps'] = (value != null && value is! JsArray) ? new JsObject.jsify(value) : value;}
+
+  /// Internal variable holding all matched suggestions.
+  List get suggestions => jsElement[r'suggestions'];
+  set suggestions(List value) { jsElement[r'suggestions'] = (value != null && value is! JsArray) ? new JsObject.jsify(value) : value;}
 }
